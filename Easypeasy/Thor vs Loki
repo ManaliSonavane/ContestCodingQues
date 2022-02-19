@@ -1,0 +1,35 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+	public static void main (String[] args) {
+	        Scanner s= new Scanner(System.in);
+	        int t= s.nextInt();
+	        while(t>0){
+	           long  x=s.nextLong();
+               long  y=s.nextLong();
+               long z=s.nextLong();
+               long  output= ans(x,y,z);
+               System.out.println(output);
+               t--;
+	        }
+	}
+            public static long  ans(long u,long v,long  w){
+                long thor,loki;
+                thor =w-u;
+                loki= w-v;
+                long max=0;
+                max= Math.max(thor,loki);
+                return max;
+            }
+}
+
+/*
+Sample Input
+2
+2 3 4
+1 1 5
+Sample Output
+2(4-2)
+4(5-1)
+*/
