@@ -14,7 +14,7 @@ public class Main {
           }
           //sum=8 d=3 
           int l= (sum/n) - d;
-          total= l- see;
+          total= sum -l;
           System.out.println(total);
 	}
 }
