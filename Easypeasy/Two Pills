@@ -13,6 +13,9 @@ public class Main {
             if(m> red && m> green){
                 System.out.println("0");
             }
+	    if(m==red && m==green){
+                System.out.print("0");
+            }
             if(m< red || m< green){
                 System.out.println("1"); 
             }
