@@ -13,8 +13,8 @@ public class Main {
               sum= sum+t;
           }
           //sum=8 d=3 
-          int see= (sum/n) - d;
-          total= sum- see;
+          int l= (sum/n) - d;
+          total= l- see;
           System.out.println(total);
 	}
 }
